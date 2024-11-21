@@ -1,0 +1,14 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY
+ADHERED TO THE TENURES OF THE OHIO STATE UNIVERSITY'S ACADEMIC
+INTEGRITY POLICY
+
+Name: Yihone Chu
+
+1. It took me about 10 hours or so to complete this lab.
+
+2. It is kinda concerning that v2 comes first in the struct, which kinda messed some things up for me. 
+
+3. I used gdb a lot in this lab. I used gdb to make sure that each function was working correctly, for example, mov operations as well as leaq operations. I also
+used gdb to see the return values of different functions for example EOF in fscanf and null pointers with malloc to make sure that everything was working properly.
+I also used gdb to find that I was actually using some wrong registers that were causing some problems. For example, I was using the file name from argv instead of
+the file pointer in readLines which caused lots of problems. 
